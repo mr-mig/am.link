@@ -1,0 +1,11 @@
+{
+  "name": "am.link",
+  "version": "1.0.0",
+  "description": "link helper based on angular scopes. Link two state objects to call transforming function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mr_Mig",
+  "license": "MIT"
+}
