@@ -1,5 +1,18 @@
 The helper function which links the state objects and propagate change between them using the transformer function.
 
+All method calls can be chained.
+There can be several source and target states:
+```javascript
+link($scope)
+  .from(state1, 'field1')
+  .from(state2, 'field2')
+  .to(targetState, 'field3')
+  .with(function(newValue){
+    return newValue + 'some demo stuff';
+  });
+```
+
+
 ## link(scope)
 
 Create a link using the current scope
