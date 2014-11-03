@@ -1,8 +1,6 @@
 'use strict';
-var angular = require('angular');
+var angular = require('angular-cjs');
+var linkHelper = require('./index');
 
-module.exports = angular.module('am.link', [
-
-])
-		.value('link', require('./index'))
-;
+module.exports = angular.module(linkHelper.moduleName, [])
+  .value(linkHelper.entityName, linkHelper.factoryFn);

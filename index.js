@@ -1,6 +1,10 @@
 /*global angular*/
 'use strict';
-module.exports = link;
+module.exports = {
+  factoryFn: link,
+  moduleName: 'am.link',
+  entityName: 'link'
+};
 
 function link(scope) {
 	return new LinkBus(scope);
