@@ -1,6 +1,6 @@
 {
   "name": "am.link",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "link helper based on angular scopes. Link two state objects to call transforming function",
   "main": "index.js",
   "scripts": {
